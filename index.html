@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tricolour Market, a fictional campus marketplace and subscription cancellation demonstration.">
+  <link rel="icon" href="./market.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+  <title>Tricolour Market</title>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <aside id="recording" aria-label="Recording controls" hidden>
+    <div class="toolbar wrap">
+      <strong>Demo controls</strong>
+      <label>Demo <select id="demo-select"></select></label>
+      <label>Scene <select id="scene-select"></select></label>
+      <button id="restart" type="button">Restart</button>
+      <label class="toggle"><input id="annotate" type="checkbox"> Annotations</label>
+      <button id="clean" type="button">Clean view</button>
+    </div>
+  </aside>
+  <header class="store-header">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="#home"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span>tricolour<span class="market">market</span></span></a>
+      <form id="search" role="search" class="search">
+        <label class="sr-only" for="query">Search campus essentials</label>
+        <input id="query" type="search" placeholder="Search campus essentials" required>
+        <button type="submit" aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+      </form>
+      <p class="demo-label">Fictional student demonstration</p>
+      <nav aria-label="Store navigation"><a href="#signup/offer">Tricolour+</a><a id="account-link" href="#direct/account">My account</a></nav>
+    </div>
+  </header>
+  <main id="content" tabindex="-1"></main>
+  <footer class="wrap footer">
+    <span>Tricolour Market · CISC 497 student project</span>
+    <nav aria-label="Project information"><a href="#home">Demo hub</a><a href="#diagrams">Diagrams</a><a href="#references">References</a><a href="#disclosure">AI disclosure</a></nav>
+  </footer>
+  <button type="button" id="restore" hidden title="Show demo controls (Escape)">Show demo controls</button>
+  <noscript><p class="wrap">Enable JavaScript to explore the demonstrations.</p></noscript>
+</body>
+</html>

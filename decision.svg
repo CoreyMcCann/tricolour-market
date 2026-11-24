@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="625" viewBox="0 0 1200 625" role="img" aria-labelledby="title desc">
+<title id="title">One decision, two presentations</title>
+<desc id="desc">The obstructive final decision highlights staying. The direct confirmation highlights cancelling and places the optional discount below.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0l8 4-8 4z" fill="#60748a"/></marker></defs>
+<style>
+text{font-family:system-ui,-apple-system,sans-serif;fill:#172a40}.title{font-size:36px;font-weight:780}.head{font-size:25px;font-weight:760}.body{font-size:19px;font-weight:700}.sub{font-size:17px;fill:#40556b}.note{font-size:18px;fill:#40556b}.pill{font-size:17px;font-weight:730}
+</style>
+<rect x="0" y="0" width="1200" height="625" rx="0" fill="#f4f6f8" stroke="none"/>
+<text x="36" y="53" class="title" text-anchor="start">One decision, two presentations</text>
+<text x="36" y="83" class="note" text-anchor="start">Tricolour Market · Comparison of fictional demonstrations</text>
+<rect x="35" y="111" width="552" height="458" rx="12" fill="white" stroke="#c4d0de"/>
+<rect x="613" y="111" width="552" height="458" rx="12" fill="white" stroke="#c4d0de"/>
+<text x="58" y="152" class="head" text-anchor="start">Retention-focused presentation</text>
+<text x="636" y="152" class="head" text-anchor="start">Direct cancellation redesign</text>
+<text x="58" y="202" class="body" text-anchor="start">Choose what to do with your membership</text>
+<text x="636" y="202" class="body" text-anchor="start">Cancel your membership?</text>
+<text x="58" y="235" class="sub" text-anchor="start">Access ends after the paid period.</text>
+<text x="636" y="235" class="sub" text-anchor="start">Access ends after the paid period.</text>
+<text x="58" y="260" class="sub" text-anchor="start">Confirming cancellation stops future payments.</text>
+<text x="636" y="260" class="sub" text-anchor="start">Confirming cancellation stops future payments.</text>
+<rect x="58" y="285" width="170" height="42" rx="7" fill="#efc36b" stroke="#c3943e"/><text x="143" y="312" class="pill" text-anchor="middle">Keep membership</text>
+<rect x="239" y="285" width="247" height="42" rx="7" fill="#fff" stroke="#a6b5c5"/><text x="362.5" y="312" class="pill" text-anchor="middle">Remind me before renewal</text>
+<text x="58" y="355" class="pill" text-anchor="start">Confirm cancellation</text>
+<path d="M58 360H234" fill="none" stroke="#60748a" stroke-width="2"/>
+<rect x="636" y="285" width="200" height="42" rx="7" fill="#efc36b" stroke="#c3943e"/><text x="736" y="312" class="pill" text-anchor="middle">Confirm cancellation</text>
+<rect x="847" y="285" width="166" height="42" rx="7" fill="#fff" stroke="#a6b5c5"/><text x="930" y="312" class="pill" text-anchor="middle">Keep membership</text>
+<rect x="636" y="345" width="502" height="91" rx="7" fill="#eff4f9" stroke="#d3dce8"/>
+<text x="651" y="371" class="body" text-anchor="start">Optional one-month discount</text>
+<rect x="651" y="380" width="239" height="42" rx="7" fill="#fff" stroke="#a6b5c5"/><text x="770.5" y="407" class="pill" text-anchor="middle">Apply one-month discount</text>
+<text x="58" y="408" class="body" text-anchor="start">Prominence</text>
+<text x="58" y="434" class="sub" text-anchor="start">Gold draws attention to staying.</text>
+<text x="58" y="470" class="body" text-anchor="start">Wording and exit</text>
+<text x="58" y="496" class="sub" text-anchor="start">The heading asks for another decision.</text>
+<text x="58" y="522" class="sub" text-anchor="start">Cancellation is a text action below alternatives.</text>
+<text x="636" y="470" class="body" text-anchor="start">Prominence, wording and exit</text>
+<text x="636" y="496" class="sub" text-anchor="start">The heading names the action and gold confirms it.</text>
+<text x="636" y="522" class="sub" text-anchor="start">The offer sits below and can be skipped.</text>
+<text x="36" y="603" class="note" text-anchor="start">Both buttons labelled Confirm cancellation stop future payments. The comparison describes design choices.</text>
+</svg>

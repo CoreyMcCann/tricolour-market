@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="718" viewBox="0 0 1200 718" role="img" aria-labelledby="title desc">
+<title id="title">Two routes to cancellation</title>
+<desc id="desc">A map of the actual demo flows. Green boxes are cancellation receipts. Gold boxes are paths that preserve automatic renewal.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0l8 4-8 4z" fill="#60748a"/></marker></defs>
+<style>
+text{font-family:system-ui,-apple-system,sans-serif;fill:#172a40}.title{font-size:36px;font-weight:780}.head{font-size:25px;font-weight:760}.body{font-size:19px;font-weight:700}.sub{font-size:17px;fill:#40556b}.note{font-size:18px;fill:#40556b}.pill{font-size:17px;font-weight:730}
+</style>
+<rect x="0" y="0" width="1200" height="718" rx="0" fill="#f4f6f8" stroke="none"/>
+<text x="36" y="53" class="title" text-anchor="start">Two routes to cancellation</text>
+<text x="36" y="83" class="note" text-anchor="start">Tricolour Market · Comparison of fictional demonstrations</text>
+<rect x="35" y="107" width="705" height="563" rx="12" fill="#edf2f7" stroke="#d3dde8"/>
+<rect x="755" y="107" width="410" height="563" rx="12" fill="#edf2f7" stroke="#d3dde8"/>
+<text x="58" y="145" class="head" text-anchor="start">Obstructive cancellation</text>
+<text x="778" y="145" class="head" text-anchor="start">Direct cancellation</text>
+<path d="M240 234V256" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M240 302V325" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M240 395V415" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M240 485V505" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M240 575V593" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M420 360H478" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M420 450H478" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M420 540H478" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M960 234V256" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M960 326V350" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M960 326v13h186v119H1142" fill="none" stroke="#60748a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="58" y="165" width="362" height="68" rx="8" fill="white" stroke="#bdcad8"/><text x="72" y="191" class="body" text-anchor="start">Membership account</text><text x="72" y="216" class="sub" text-anchor="start">Open Manage membership</text>
+<rect x="58" y="258" width="362" height="42" rx="8" fill="white" stroke="#bdcad8"/><text x="72" y="284" class="body" text-anchor="start">Select End membership</text>
+<rect x="58" y="326" width="362" height="68" rx="8" fill="white" stroke="#bdcad8"/><text x="72" y="352" class="body" text-anchor="start">Benefits reminder</text><text x="72" y="377" class="sub" text-anchor="start">Continue to cancel</text>
+<rect x="58" y="416" width="362" height="68" rx="8" fill="white" stroke="#bdcad8"/><text x="72" y="442" class="body" text-anchor="start">Retention offer</text><text x="72" y="467" class="sub" text-anchor="start">Continue to cancel</text>
+<rect x="58" y="506" width="362" height="68" rx="8" fill="white" stroke="#bdcad8"/><text x="72" y="532" class="body" text-anchor="start">Final decision</text><text x="72" y="557" class="sub" text-anchor="start">Confirm cancellation</text>
+<rect x="58" y="594" width="362" height="68" rx="8" fill="#e3efe8" stroke="#80a68f"/><text x="72" y="620" class="body" text-anchor="start">Cancellation complete</text><text x="72" y="645" class="sub" text-anchor="start">Access through end of paid period</text>
+<rect x="480" y="326" width="238" height="68" rx="8" fill="#fff2d7" stroke="#c9a763"/><text x="494" y="352" class="body" text-anchor="start">Renewal stays on</text><text x="494" y="377" class="sub" text-anchor="start">Keep or set reminder</text>
+<rect x="480" y="416" width="238" height="68" rx="8" fill="#fff2d7" stroke="#c9a763"/><text x="494" y="442" class="body" text-anchor="start">Renewal stays on</text><text x="494" y="467" class="sub" text-anchor="start">Keep or apply discount</text>
+<rect x="480" y="506" width="238" height="68" rx="8" fill="#fff2d7" stroke="#c9a763"/><text x="494" y="532" class="body" text-anchor="start">Renewal stays on</text><text x="494" y="557" class="sub" text-anchor="start">Keep or set reminder</text>
+<rect x="778" y="165" width="364" height="68" rx="8" fill="white" stroke="#bdcad8"/><text x="792" y="191" class="body" text-anchor="start">Membership account</text><text x="792" y="216" class="sub" text-anchor="start">Select Cancel membership</text>
+<rect x="778" y="258" width="364" height="68" rx="8" fill="white" stroke="#bdcad8"/><text x="792" y="284" class="body" text-anchor="start">Confirm cancellation</text><text x="792" y="309" class="sub" text-anchor="start">Select Confirm cancellation</text>
+<rect x="778" y="351" width="364" height="68" rx="8" fill="#e3efe8" stroke="#80a68f"/><text x="792" y="377" class="body" text-anchor="start">Cancellation complete</text><text x="792" y="402" class="sub" text-anchor="start">Access through end of paid period</text>
+<rect x="778" y="430" width="364" height="68" rx="8" fill="#fff2d7" stroke="#c9a763"/><text x="792" y="456" class="body" text-anchor="start">Renewal stays on</text><text x="792" y="481" class="sub" text-anchor="start">Keep or apply discount</text>
+<text x="778" y="538" class="note" text-anchor="start">Both cancellation receipts confirm</text>
+<text x="778" y="565" class="note" text-anchor="start">that future payments stop.</text>
+<text x="58" y="696" class="note" text-anchor="start">Alternative outcomes return to the account with renewal on. Cancellation returns to an account marked cancelled.</text>
+</svg>
