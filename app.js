@@ -1,33 +1,3 @@
-const research = [
-  {
-    "title": "FTC amended complaint against Amazon.com, Inc.",
-    "date": "September 20, 2023",
-    "location": "PDF pages 47–55, historical desktop Iliad flow (¶¶127–155)",
-    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023-09-20-067-AmendedComplaint%28redacted%29.pdf#page=47",
-    "copy": "The FTC alleged that the historical desktop Iliad process took four pages, at least six clicks and presented fifteen options. We adapt the management menu, a benefits reminder, an offer and repeated decisions. These are allegations about a historical interface. The fictional routes use their own screens, offers and terms."
-  },
-  {
-    "title": "FTC Secures Historic $2.5 Billion Settlement Against Amazon",
-    "date": "September 25, 2025",
-    "location": "Press release, monetary judgment and changes to Prime",
-    "url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon",
-    "copy": "The FTC reports a settlement addressing both Prime enrollment and cancellation. The total combines a $1 billion civil penalty and $1.5 billion in consumer redress. The settlement provides case context for the historical complaint."
-  },
-  {
-    "title": "Sheil et al., Staying at the Roach Motel: Cross-Country Analysis of Manipulative Subscription and Cancellation Flows",
-    "date": "CHI 2024 (preprint revised March 14, 2024)",
-    "location": "§§3.3, 4.2.2, 4.3.2, 4.4.2, 4.6 and 5.1",
-    "url": "https://arxiv.org/html/2309.17145v3",
-    "copy": "The researchers document obstacles such as extra decisions and offers, and discuss examples of prominent cancellation controls and clear confirmations. The findings describe the news sites and personas studied at the time. They inform our comparison without measuring the effect of our redesign."
-  },
-  {
-    "title": "Which?, Dark Patterns 2026",
-    "date": "November 5, 2026",
-    "location": "Methodology and Findings, “Subscription traps” and Figure 5",
-    "url": "https://www.which.co.uk/policy-and-insight/article/dark-patterns-2026-aCroI9S4updG",
-    "copy": "In this self-reported UK survey, 29% of respondents who had tried to cancel or change a subscription in the preceding year found cancellation difficult. Figure 5 reports barriers for that subgroup (769 respondents). This evidence provides UK context and does not estimate Canadian or global experience."
-  }
-];
 const disclosure = [
   {
     "title": "First website build",
@@ -311,10 +281,17 @@ function renderDocument(page) {
       '<article class="resource"><h2>' + title + '</h2><p>' + description + '</p><figure class="diagram"><img src="./' + file + '" alt="' + title + '"></figure><div class="actions"><a class="button" href="./' + file + '" download>Download ' + title.toLowerCase() + ' SVG</a></div></article>').join("") + '</section>';
   }
   if (page === "references") {
-    return intro + '<p>Sources for the CISC 497 position video demonstrations.</p>'
-      + '<article class="resource"><h2>About the fictional demo</h2><p>The marketplace, customer, prices and billing dates are fictional. Tricolour Market is an independent student project. The obstructive demo adapts historical interaction patterns in a new interface. The direct flow is our proposed redesign: a visible cancellation control, an optional offer, and confirmation of access and billing outcomes.</p></article>'
-      + research.map(source => '<article class="resource"><h2><a href="' + source.url + '">' + source.title + '</a></h2><p class="muted">' + source.date + ' · ' + source.location + '</p><p>' + source.copy + '</p></article>').join("")
-      + '<div class="actions"><a href="./references.md">Read the Markdown reference file</a></div></section>';
+    return `<section class="wrap document references-document">
+      <div class="bibliography">
+        <h1>References</h1>
+        <ul class="bibliography-list" role="list">
+          <li>Davis, C., &amp; Jenkins, A. (2026, November 5). <cite>Dark patterns 2026</cite>. Which?. <a href="https://www.which.co.uk/policy-and-insight/article/dark-patterns-2026-aCroI9S4updG?utm_source=chatgpt.com">Report</a> — see “Subscription traps.”</li>
+          <li>Federal Trade Commission. (2023, September 20). <cite>Amended complaint: Federal Trade Commission v. Amazon.com, Inc., et al.</cite> (No. 2:23-cv-00932-JHC). <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/2023-09-20-067-AmendedComplaint%28redacted%29.pdf#page=47">Complaint</a> — see <span class="page-range">pp. 47–55</span>.</li>
+          <li>Sheil, A., Acar, G., Schraffenberger, H., Gellert, R., &amp; Malone, D. (2024). Staying at the roach motel: Cross-country analysis of manipulative subscription and cancellation flows. In <cite>Proceedings of the CHI Conference on Human Factors in Computing Systems</cite>. Association for Computing Machinery. <a href="https://doi.org/10.1145/3613904.3642881">DOI</a> — see §4.2.2, Figure 7.</li>
+        </ul>
+        <p class="bibliography-note">Tricolour Market is a fictional student demonstration.</p>
+      </div>
+    </section>`;
   }
   if (page === "disclosure") {
     return intro + '<p>Working log for group review. Review and update this log before preparing the video disclosure.</p>'
